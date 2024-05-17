@@ -1,5 +1,6 @@
 html, body{
     margin: 0;
+    
   }
   
   body{
@@ -9,18 +10,15 @@ html, body{
 .slide-controller:nth-child(2):checked ~ .slide .fotos{--selected-item: 1;}
 .slide-controller:nth-child(3):checked ~ .slide .fotos{--selected-item: 2;}
 
-
-  
-  
-  .slide{
+.slide{
     overflow: hidden;
-    
+    background-color: rgb(245, 209, 243);
     
   }
   
   .fotos{
     --selected-item: 0;
-    --total-items: 4;
+    --total-items: 3;
     list-style-type: none;
     margin: 10px 0;
     padding: 0;
@@ -35,6 +33,13 @@ html, body{
   }
 
   .unha{
-    width:280px ;
+    width:380px ;
     
   }
+  .contatos{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+  

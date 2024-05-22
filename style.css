@@ -62,7 +62,14 @@
   margin-top: 40px;
   
  }
- 
+ .num{
+  background-color:rgb(245, 209, 243) ;
+  width: 290px;
+  height: 260px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+ }
 
  
   

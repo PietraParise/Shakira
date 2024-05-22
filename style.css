@@ -34,22 +34,38 @@
   .unha{
     width:380px ;
     
-  }
-  .contatos{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    float: right;
-    margin-right: 80px;
-    
-  }
+     }
+  
   .ins{
     width: 30px;
     height: 30px;
+   margin-top: 35px;
+   
   }
   .nails{
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    
      }
   .titulo{
     align-items: center;
+    
   }
+  .i{
+    display: flex;
+    justify-content: end;
+    
+ }
+ h2{
+  font-size: small;
+  margin-top: 40px;
+  
+ }
+ 
+
+ 
+  
+  
+
+  

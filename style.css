@@ -34,7 +34,7 @@ body{
     
      }
   h1{
-    font-size: small;
+    font: size 15px;;
     color: palevioletred;
   }
   
@@ -46,11 +46,20 @@ body{
   .fundo{
     background-image: url("fundo.jpg");
     height:600px ;
+   
   }
   h2{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
-    color:bisque
+    color:rgb(253, 249, 243);
+    margin-top:20px;
+  }
+  .botão{
+    width: 360px;
+    height: 60px;
+    color: rgb(235, 115, 155);
+    background-color: whitesmoke;
+    font-size: x-large;
   }
  
  
